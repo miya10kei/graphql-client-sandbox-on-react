@@ -43,7 +43,7 @@ const UserList = ({ count, users, refetchUsers }) => (
 
 UserList.propTypes = {
   count: PropTypes.number,
-  users: PropTypes.object,
+  users: PropTypes.array,
   refetchUsers: PropTypes.func
 }
 
